@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		33872FC31BD690DE00150125 /* TestCreatePDF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCreatePDF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33872FC31BD690DE00150125 /* CreatePDF-objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CreatePDF-objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33872FC71BD690DE00150125 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33872FC91BD690DE00150125 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33872FCA1BD690DE00150125 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		33872FBA1BD690DE00150125 = {
 			isa = PBXGroup;
 			children = (
-				33872FC51BD690DE00150125 /* TestCreatePDF */,
+				33872FC51BD690DE00150125 /* CreatePDF-objc */,
 				33872FC41BD690DE00150125 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		33872FC41BD690DE00150125 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				33872FC31BD690DE00150125 /* TestCreatePDF.app */,
+				33872FC31BD690DE00150125 /* CreatePDF-objc.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		33872FC51BD690DE00150125 /* TestCreatePDF */ = {
+		33872FC51BD690DE00150125 /* CreatePDF-objc */ = {
 			isa = PBXGroup;
 			children = (
 				33872FC91BD690DE00150125 /* AppDelegate.h */,
@@ -68,7 +68,7 @@
 				33872FD71BD690DE00150125 /* Info.plist */,
 				33872FC61BD690DE00150125 /* Supporting Files */,
 			);
-			path = TestCreatePDF;
+			path = "CreatePDF-objc";
 			sourceTree = "<group>";
 		};
 		33872FC61BD690DE00150125 /* Supporting Files */ = {
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		33872FC21BD690DE00150125 /* TestCreatePDF */ = {
+		33872FC21BD690DE00150125 /* CreatePDF-objc */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 33872FDA1BD690DE00150125 /* Build configuration list for PBXNativeTarget "TestCreatePDF" */;
+			buildConfigurationList = 33872FDA1BD690DE00150125 /* Build configuration list for PBXNativeTarget "CreatePDF-objc" */;
 			buildPhases = (
 				33872FBF1BD690DE00150125 /* Sources */,
 				33872FC01BD690DE00150125 /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = TestCreatePDF;
+			name = "CreatePDF-objc";
 			productName = TestCreatePDF;
-			productReference = 33872FC31BD690DE00150125 /* TestCreatePDF.app */;
+			productReference = 33872FC31BD690DE00150125 /* CreatePDF-objc.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 33872FBE1BD690DE00150125 /* Build configuration list for PBXProject "TestCreatePDF" */;
+			buildConfigurationList = 33872FBE1BD690DE00150125 /* Build configuration list for PBXProject "CreatePDF-objc" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				33872FC21BD690DE00150125 /* TestCreatePDF */,
+				33872FC21BD690DE00150125 /* CreatePDF-objc */,
 			);
 		};
 /* End PBXProject section */
@@ -263,10 +263,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TestCreatePDF/Info.plist;
+				INFOPLIST_FILE = "CreatePDF-objc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cshan.TestCreatePDF;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cshan.CreatePDF-objc";
+				PRODUCT_NAME = "CreatePDF-objc";
 			};
 			name = Debug;
 		};
@@ -274,17 +274,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = TestCreatePDF/Info.plist;
+				INFOPLIST_FILE = "CreatePDF-objc/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.cshan.TestCreatePDF;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cshan.CreatePDF-objc";
+				PRODUCT_NAME = "CreatePDF-objc";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		33872FBE1BD690DE00150125 /* Build configuration list for PBXProject "TestCreatePDF" */ = {
+		33872FBE1BD690DE00150125 /* Build configuration list for PBXProject "CreatePDF-objc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33872FD81BD690DE00150125 /* Debug */,
@@ -293,13 +293,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		33872FDA1BD690DE00150125 /* Build configuration list for PBXNativeTarget "TestCreatePDF" */ = {
+		33872FDA1BD690DE00150125 /* Build configuration list for PBXNativeTarget "CreatePDF-objc" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				33872FDB1BD690DE00150125 /* Debug */,
 				33872FDC1BD690DE00150125 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

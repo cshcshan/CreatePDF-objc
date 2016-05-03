@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:TestCreatePDF.xcodeproj">
+      location = "self:/Users/Han/repos/CreatePDF-objc/CreatePDF-objc.xcodeproj">
    </FileRef>
 </Workspace>
